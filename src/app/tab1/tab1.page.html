@@ -1,17 +1,56 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title>Inicio</ion-title>
   </ion-toolbar>
 </ion-header>
+<ion-content class="ion-padding">
+  <h1 class="title">Desarrollo de aplicaciones móviles</h1>
+  <p class="description">
+    En esta sección encontrarás información útil y relevante acerca del
+    desarrollo de aplicaciones móviles. A continuación, se describen algunos de
+    los frameworks y herramientas más populares para este propósito.
+  </p>
+  <ion-card>
+    <ion-card-content>
+    
+        <ion-item>
+          <ion-thumbnail slot="start" >
+            <img src="assets/img/ionic-icon.svg" alt="Ionic Framework" />
+          </ion-thumbnail>
+          <ion-label>
+            <h2>Ionic Framework</h2>
+            <p>Un framework para el desarrollo de aplicaciones híbridas
+              utilizando tecnologías web como HTML, CSS y JavaScript.</p>
+          </ion-label>
+        </ion-item>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img src="assets/img/react-icon.png" alt="React Native" />
+          </ion-thumbnail>
+          <ion-label>
+            <h2>React Native</h2>
+            <p>Un framework de desarrollo móvil que permite construir
+              aplicaciones
+              nativas usando React y JavaScript.</p>
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img src="assets/img/flutter-icon.svg" alt="Flutter" />
+          </ion-thumbnail>
+          <ion-label>
+            <h2>Flutter</h2>
+            <p>Framework de código abierto de Google para crear aplicaciones
+              nativas
+              compiladas para móvil, web y escritorio desde una sola base de
+              código.</p>
+          </ion-label>
+        </ion-item>
+ 
+    </ion-card-content>
+  </ion-card>
+  <ion-list>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  </ion-list>
 </ion-content>

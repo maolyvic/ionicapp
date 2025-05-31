@@ -1,0 +1,58 @@
+  :host {
+  display: block;
+  background: #f2f5f8;
+  min-height: 100%;
+}
+.title {
+  font-weight: 900;
+  color: #222831;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.description {
+  font-size: 1.1rem;
+  color: #394047;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+ion-list {
+  max-width: 720px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+  padding: 0.5rem 0;
+}
+ion-item {
+  --background: transparent;
+  --padding-start: 1rem;
+  --inner-padding-end: 1rem;
+  border-bottom: 1px solid #e1e5eb;
+}
+ion-item:last-child {
+  border-bottom: none;
+}
+.thumbnail img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+h2 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.3rem;
+  color: #222831;
+  font-weight: 700;
+}
+p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555c65;
+  line-height: 1.4;
+}
